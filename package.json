@@ -1,0 +1,22 @@
+{
+  "name": "zhihu-collection",
+  "version": "1.0.0",
+  "description": "A plugin to search on zhihu collection.",
+  "main": "index.js",
+  "author": "booz",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js --progress"
+  },
+  "dependencies": {
+    "zhihu": "https://github.com/ArthurTsang1/zhihu.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.5",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
+  }
+}
